@@ -1,1 +1,1 @@
-# TIY.4.3.your_first_web_app
+Your First Web App does a *few* things (a very few things). You're welcome. But, really, you need to listen to us. Read the code, and at least one thing more important than this, to know what to do with it. Amen.
