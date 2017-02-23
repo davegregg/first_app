@@ -1,17 +1,18 @@
+#!/usr/bin/env ruby
 require 'sinatra'
-require 'ffaker'
+require './filler'
 
 get '/lorem/:type' do
-  case :type
+  case params['type'].downcase
   when 'standard', 'ipsum'
-    FFaker::Lipsum.paragraphs(3)
+    Filler.lipsum
   end
 end
 
 get '/:name' do
-  ':name, we welcome you. Join us. Leave all aseity behind. Be one with the Oneness in which all is naught.'
+  Filler.welcome(params['name'])
 end
 
 get '/' do
-  'Welcome!'
+  Filler.welcome
 end
