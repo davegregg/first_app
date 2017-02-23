@@ -1,9 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    faker (1.7.3)
-      i18n (~> 0.5)
-    i18n (0.8.0)
+    ffaker (2.5.0)
     power_assert (0.2.6)
     rack (1.6.5)
     rack-protection (1.5.3)
@@ -22,10 +20,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  faker!
+  ffaker!
   rack-test!
   sinatra!
   test-unit!
 
 BUNDLED WITH
-   1.13.6
+   1.14.4
